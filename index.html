@@ -5,20 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio Web</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Jefferson dos Santos Nina</h1>
-    <img width="200px" id="img-principal" src="./img/img-principal.jpeg" alt="Foto de Jefferson dos Santos Nina">
-    <p>Brasileiro, 25 anos, São João de Meriti - RJ</p>
-    <div>
-        <h3>Habilidades:</h3>
-        <ul>
-            <li>HTML 5</li>
-            <li>CSS 3</li>
-            <li>JavaScript</li>
-        </ul>
-        <p><a href="#img-principal">Foto</a></p>
-        <p>Visite meu perfil no <a target="_blank" href="https://github.com/ojeff-dev">Github</a>!</p>
-    </div>
+    <header class="header">
+        <a>Meu Portfólio Web - Em Construção</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">item 1</a></li>
+                <li><a href="#">item 2</a></li>
+                <li><a href="#">item 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+
+            <div class="imagem">
+                <img id="img-principal" src="./img/img-principal.jpeg" alt="Foto de Jefferson dos Santos Nina">
+            </div>
+
+            <div class="info-pessoais">
+                <h1 class="nome">Jefferson dos Santos</h1>
+                <h5 class="local">São João de Meriti - RJ</h5>
+                <p class="descricao">
+                    Olá, Mundo!
+                    Estudo Desenvolvimento Web na Trybe e sou graduando em Análise e Desenvolvimento de Sistemas, pela UVA. A Tecnologia sempre foi minha paixão e um dos meus objetivos com ela, é usar suas ferramentas para impactar positivamente na vida das pessoas.
+                </p>
+                <p class="descricao">
+                    Trabalhando como Agente Supervisor, no Censo Demográfico 2022, lidei com pessoas diversas no dia a dia e pude perceber diversos problemas decorrentes da falta de acessibilidade. Acredito que a tecnologia é uma grande aliada na resolução desses problemas e estudo para fazer parte disso.
+                </p>
+                <div class="icons">
+                    <a target="_blank" href="https://www.linkedin.com/in/ojefferson/"><img src="./img/icon-linkedin.png" alt=""></a>
+                    <a target="_blank" href="https://github.com/ojeff-dev"><img src="./img/icon-github.png" alt=""></a>
+                    <a target="_blank" href="mailto:jeff-ds@outook.com"><img src="./img/icon-outlook.png" alt=""></a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="section2">
+            <h3 class="nome-habilidades">Habilidades & Ferramentas</h3>
+
+            <div class="habilidades">
+                <div>
+                   <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./img/icon-html.png" alt="icon-html"></a>
+                    <p>HTML 5</p>
+                </div>
+                <div>
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./img/icon-css.png" alt="icon-css"></a>
+                    <p>CSS 3</p>
+                </div>
+                <div>
+                   <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./img/icon-javascript.png" alt="icon-javascript"></a>
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.pontotel.com.br/organizacao-no-trabalho/"><img src="./img/icon-organizacao.png" alt="icon-html"></a>
+                     <p>Organização</p>
+                 </div>
+                <div>
+                    <a target="_blank" href="https://www.fm2s.com.br/blog/trabalho-em-equipe"><img src="./img/icon-equipe.png" alt="icon-html"></a>
+                     <p>Trabalho em Equipe</p>
+                 </div>
+                 <div>
+                    <a target="_blank" href="https://www.pontotel.com.br/comprometimento-no-trabalho"><img src="./img/icon-comprometimento.png" alt="icon-html"></a>
+                     <p>Comprometimento</p>
+                 </div>
+            </div>
+        </section>
+        <section id="section3">
+            <h3 class="nome-projetos">Projetos</h3>
+
+            <div class="projetos">
+                <div>
+                    <img src="./img/icon-construcao.png" alt="">
+                    <p>Loading</p>
+                </div>
+                <div>
+                    <img src="./img/icon-construcao.png" alt="">
+                    <p>Loading</p>
+                </div>
+                <div>
+                    <img src="./img/icon-construcao.png" alt="">
+                    <p>Loading</p>
+                </div>
+                <div>
+                    <img src="./img/icon-construcao.png" alt="">
+                    <p>Loading</p>
+                </div>
+                <div>
+                    <img src="./img/icon-construcao.png" alt="">
+                    <p>Loading</p>
+                </div>
+            </div>
+            <div class="arrow">
+                <a href="#"><img src="./img/icon-arrow.png" alt=""></a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Em desenvolvimento por: <a href="#img-principal">Jefferson S.</a></p>
+    </footer>
 </body>
 </html>

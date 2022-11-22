@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio Web</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/49dc766b70.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <a>Meu Portfólio Web - Em Construção</a>
         <nav>
             <ul class="menu">
-                <li><a href="#">item 1</a></li>
-                <li><a href="#">item 2</a></li>
-                <li><a href="#">item 3</a></li>
+                <li><a href="#section1">Sobre</a></li>
+                <li><a href="#section2">Habilidades</a></li>
+                <li><a href="#section3">Projetos</a></li>
+                <li><a href="">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="section1">
-
-            <div class="imagem">
-                <img id="img-principal" src="./img/img-principal.jpeg" alt="Foto de Jefferson dos Santos Nina">
-            </div>
-
-            <div class="info-pessoais">
-                <h1 class="nome">Jefferson dos Santos</h1>
-                <h5 class="local">São João de Meriti - RJ</h5>
-                <p class="descricao">
-                    Olá, Mundo!
-                    Estudo Desenvolvimento Web na Trybe e sou graduando em Análise e Desenvolvimento de Sistemas, pela UVA. A Tecnologia sempre foi minha paixão e um dos meus objetivos com ela, é usar suas ferramentas para impactar positivamente na vida das pessoas.
-                </p>
-                <p class="descricao">
-                    Trabalhando como Agente Supervisor, no Censo Demográfico 2022, lidei com pessoas diversas no dia a dia e pude perceber diversos problemas decorrentes da falta de acessibilidade. Acredito que a tecnologia é uma grande aliada na resolução desses problemas e estudo para fazer parte disso.
-                </p>
-                <div class="icons">
-                    <a target="_blank" href="https://www.linkedin.com/in/ojefferson/"><img src="./img/icon-linkedin.png" alt=""></a>
-                    <a target="_blank" href="https://github.com/ojeff-dev"><img src="./img/icon-github.png" alt=""></a>
-                    <a target="_blank" href="mailto:jeff-ds@outook.com"><img src="./img/icon-outlook.png" alt=""></a>
+            <div class="container">
+                <!-- Imagem e Localização -->
+                <div class="imagem-sobre">
+                    <img src="./img/img-principal.jpeg" alt="Foto de Jefferson dos Santos">
                 </div>
-                
+                <!-- Caixa flexbox -->
+                <div class="box-sobre">
+                    <div class="nome-e-local">
+                        <h1 id="meu-nome" class="nome">Jefferson dos Santos</h1>
+                        <h5 class="local">São João de Meriti - Rio de Janeiro, Brazil</h5>
+                    </div>
+                    <p class="descricao">
+                        Olá, Mundo!
+                        Estudo Desenvolvimento Web na Trybe e sou graduando em Análise e Desenvolvimento de Sistemas,
+                        pela UVA.
+                        A
+                        Tecnologia sempre foi minha paixão e um dos meus objetivos com ela, é usar suas ferramentas para
+                        impactar
+                        positivamente na vida das pessoas.
+                    </p>
+                    <p class="descricao">
+                        Trabalhando como Agente Supervisor, no Censo Demográfico 2022, lidei com pessoas diversas no dia
+                        a dia e
+                        pude perceber diversos problemas decorrentes da falta de acessibilidade. Acredito que a
+                        tecnologia é uma
+                        grande aliada na resolução desses problemas e estudo para fazer parte disso.
+                    </p>
+                    <!-- Ícones das mídias sociais -->
+                    <div class="midias-sociais">
+                        <div class="icons">
+                            <a target="_blank" href="https://www.linkedin.com/in/ojefferson/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a target="_blank" href="https://github.com/ojeff-dev"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a target="_blank" href="mailto:jeff-ds@outook.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -49,29 +70,35 @@
 
             <div class="habilidades">
                 <div>
-                   <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./img/icon-html.png" alt="icon-html"></a>
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img
+                            src="./img/icon-html.png" alt="icon-html"></a>
                     <p>HTML 5</p>
                 </div>
                 <div>
-                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./img/icon-css.png" alt="icon-css"></a>
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img
+                            src="./img/icon-css.png" alt="icon-css"></a>
                     <p>CSS 3</p>
                 </div>
                 <div>
-                   <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./img/icon-javascript.png" alt="icon-javascript"></a>
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img
+                            src="./img/icon-javascript.png" alt="icon-javascript"></a>
                     <p>JavaScript</p>
                 </div>
                 <div>
-                    <a target="_blank" href="https://www.pontotel.com.br/organizacao-no-trabalho/"><img src="./img/icon-organizacao.png" alt="icon-html"></a>
-                     <p>Organização</p>
-                 </div>
+                    <a target="_blank" href="https://www.pontotel.com.br/organizacao-no-trabalho/"><img
+                            src="./img/icon-organizacao.png" alt="icon-html"></a>
+                    <p>Organização</p>
+                </div>
                 <div>
-                    <a target="_blank" href="https://www.fm2s.com.br/blog/trabalho-em-equipe"><img src="./img/icon-equipe.png" alt="icon-html"></a>
-                     <p>Trabalho em Equipe</p>
-                 </div>
-                 <div>
-                    <a target="_blank" href="https://www.pontotel.com.br/comprometimento-no-trabalho"><img src="./img/icon-comprometimento.png" alt="icon-html"></a>
-                     <p>Comprometimento</p>
-                 </div>
+                    <a target="_blank" href="https://www.fm2s.com.br/blog/trabalho-em-equipe"><img
+                            src="./img/icon-equipe.png" alt="icon-html"></a>
+                    <p>Trabalho em Equipe</p>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.pontotel.com.br/comprometimento-no-trabalho"><img
+                            src="./img/icon-comprometimento.png" alt="icon-html"></a>
+                    <p>Comprometimento</p>
+                </div>
             </div>
         </section>
         <section id="section3">
@@ -105,8 +132,10 @@
         </section>
     </main>
     
+    <!-- Rodapé da página -->
     <footer>
-        <p>Em desenvolvimento por: <a href="#img-principal">Jefferson S.</a></p>
+        <p>Em desenvolvimento por: <a href="#meu-nome">Jefferson S.</a></p>
     </footer>
 </body>
+
 </html>
